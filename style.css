@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Inria Sans", system-ui;
+    background-color: cornflowerblue;
+    /* background-color: red; */
+}
+
+.titl{
+     text-align: center;
+     /* margin:0 40% 0 40%; up right down left */
+     font-size: 40px;
+     /* border: solid; */
+     /* background: rgb(0, 0, 0); */
+     /* background-color: rgb(0, 0, 0); */
+     color: rgb(232, 255, 27);
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.playground{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    
+    justify-content: center; /*can only be used after making flex*/
+    /* gap: 10px; */
+     
+    
+}
+img{
+     border: solid;
+     width: 80%;
+     height: 80%;
+     /* height: 30%; */
+    /* width: 5%; */
+ }
+
+ .computer p,.person p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15%;
+ }
+ .box{
+    display: flex;
+     justify-content: center;
+     gap: 15%;
+ }
+
+ .box_{
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 17, 16);
+    font-size: 26px;
+    height: 10vh;
+    width: 10%;
+    cursor: pointer;
+ }
+
+ /* button{
+    height: 10vh;
+    width: 10%
+ } */

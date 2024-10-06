@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper scissor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="titl">
+    <p>Rock Paper Scissor</p>
+    </div>
+
+    <div class="playground">
+        <div class="person">
+        <img id="imggg" src="Select.png">  <p style="text-align: center; color: red;">Person</p>
+    </div>
+    <div class="computer">
+        <img id="imgcomp" src="think.png" >
+        <p style="text-align: center; color:green;"> computer</p>
+      </div>   
+
+
+    </div> 
+
+    <div class="box" >
+    <select id="option_" class="box_">
+        <option>Select</option>
+        <option class="rock">Rock</option>
+        <option class="paper">Paper</option>
+        <option class="scissor">Scissor</option>
+      </select>
+
+      
+
+    <button onclick="ok" class="box_" id="roll">ROLL</button>
+    <button class="box_" id="reset_">Reset</button>
+   </div>
+    
+
+    <script src="script.js" ></script>
+</body>
+</html>
